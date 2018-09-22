@@ -46,16 +46,16 @@ def get_elevation_offline(lat, lon):
 
 
 def calculate_ski_route(dst_lat, dst_lon, src_lat, src_lon):
-    return {'test': 'true'}
+    return {}
 
 
 # https://stackoverflow.com/questions/4048651/python-function-to-convert-seconds-into-minutes-hours-and-days/4048773
 intervals = (
-    ('weeks', 604800),  # 60 * 60 * 24 * 7
-    ('days', 86400),    # 60 * 60 * 24
-    ('hours', 3600),    # 60 * 60
-    ('minutes', 60),
-    ('seconds', 1),
+    ('w', 604800),  # 60 * 60 * 24 * 7
+    ('d', 86400),    # 60 * 60 * 24
+    ('hr', 3600),    # 60 * 60
+    ('min', 60),
+    ('sec', 1),
     )
 
 def display_time(seconds, granularity=2):

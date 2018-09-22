@@ -4,6 +4,7 @@ from flask_cors import CORS
 import geopy.distance
 from hta_utils import *
 from scipy.spatial import distance
+from parser import *
 
 app = Flask(__name__)
 CORS(app)
@@ -56,6 +57,20 @@ def get_skiroute():
     route['VerticalDirectionText'] = "Going " + route['VerticalDirection']
 
     return jsonify(route)
+
+
+@app.route('/skiroute_extra')
+def get_skiroute_extra():
+    src_lat = float(request.args.get('src_lat'))
+    src_lon = float(request.args.get('src_lon'))
+    dst_lat = float(request.args.get('dst_lat'))
+    dst_lon = float(request.args.get('dst_lon'))
+
+    route = {}
+    route['Way'] = way_to_interest_point((src_lat, src_lon), (dst_lat, dst_lon))
+
+    return jsonify(route)
+
 
 if __name__ == "__main__":
     app.run(port=5001)
