@@ -1,0 +1,148 @@
+@font-face {
+	font-family: OpenSans;
+	src: url(OpenSans-Regular.ttf);
+}
+
+.search {
+  width: 100%;
+  position: relative;
+}
+.searchTerm {
+   width: 170px;
+   -webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+   transition: all .5s ease;
+}
+.searchTerm:focus {
+   width: 150%;
+}
+.searchTerm:focus + .searchButton {
+   opacity: 0;
+}
+.searchTerm + .searchButton {
+   opacity: 1;
+}
+
+#mapid {
+	z-index: 2;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #0077cc;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #0077cc;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #0077cc;
+  text-align: center;
+  background-color: #0077cc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-transition: all .4s ease;
+   -moz-transition: all .4s ease;
+   transition: all .4s ease;
+}
+.searchLens {
+	margin-top: 3px;
+}
+
+/* AUTOCOMPLETE */
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+}
+}
+.autocomplete-items {
+  position: absolute;
+  border: 3px solid #0077cc;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+#myInputautocomplete-list {
+	padding-top:33px;
+	margin-left: 1px;
+    width: 150%;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 20	%;
+  position: absolute;
+  top: 3%;
+  left: 1%;
+  z-index: 3;
+  opacity: 0.9;
+}
+
+
+/* Change layers control border color*/
+.leaflet-control-layers {
+	/*border-color: #00B4CC !important;*/
+	border-color: #0077cc !important;
+	opacity: 0.9;
+}
+.bottomPanel{
+	width: 400px;
+	height: 100px;
+	opacity: 0.7;
+	z-index: 3;
+	position: absolute;
+	font-family: 'OpenSans', sans-serif; 
+	font-size: 18px;
+	color: white;
+}
+
+.leftInfo {
+	margin-left: 3%;
+	margin-top: 3%;
+}
+.leftInfo p{
+	margin: 0.6px;
+}
+.rightInfo {
+	text-align: center;
+	position: absolute;
+    bottom: 10px;
+}
+.uielement {
+	/*background: #00B4CC;*/
+	background: #0077cc;	
+}
+
+/* Substituite pin with skier image */
+.leaflet-pane .leaflet-marker-pane img:nth-child(2) {
+	/*content: url('skier_bw.png');
+	width: 41px !important;*/
+	visibility: hidden;
+}
