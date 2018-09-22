@@ -47,6 +47,8 @@ def get_skiroute():
     elv_diff = dst_elv['elevation'] - src_elv['elevation']
     b = (dist_2d, elv_diff)
     route['TotalDistance'] = distance.euclidean(a, b)
+    route['TimeInSeconds'] = route['TotalDistance'] / NOVICE_AVG_SKIING_SPEED
+    route['TimeInText'] = display_time(route['TimeInSeconds'])
 
     return jsonify(route)
 
