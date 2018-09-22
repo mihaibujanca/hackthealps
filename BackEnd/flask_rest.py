@@ -3,6 +3,7 @@ import json
 from flask_cors import CORS
 import geopy.distance
 from hta_utils import *
+from scipy.spatial import distance
 
 app = Flask(__name__)
 CORS(app)
@@ -37,7 +38,14 @@ def get_skiroute():
     dst_lon = request.args.get('dst_lon')
     route = calculate_ski_route(dst_lat, dst_lon, src_lat, src_lon)
 
-    #
+    src_elv = get_elevation_offline(src_lat, src_lon)
+    dst_elv = get_elevation_offline(dst_lat, dst_lon)
+
+    dist_2d = 0 # test
+
+    a = (0, 0)
+    b = (dist_2d, dst_elv['elevation'] - src_elv['elevation'])
+    route['TotalDistance'] = distance.euclidean(a, b)
 
     return jsonify(route)
 

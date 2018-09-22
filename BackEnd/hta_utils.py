@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import geopy.distance
 
+
 def get_elevation_open_api(lat, lng):
     """
     Returns the elevation of a specific location on earth using open-elevation API.
