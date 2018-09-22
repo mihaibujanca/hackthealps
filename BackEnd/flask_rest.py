@@ -46,9 +46,14 @@ def get_skiroute():
     a = (0, 0)
     elv_diff = dst_elv['elevation'] - src_elv['elevation']
     b = (dist_2d, elv_diff)
-    route['TotalDistance'] = distance.euclidean(a, b)
-    route['TimeInSeconds'] = route['TotalDistance'] / NOVICE_AVG_SKIING_SPEED
+    route['TotalDistance'] = int(distance.euclidean(a, b))
+    route['TotalDistanceText'] = str(route['TotalDistance']) + " meters"
+    route['TimeInSeconds'] = int(route['TotalDistance'] / NOVICE_AVG_SKIING_SPEED)
     route['TimeInText'] = display_time(route['TimeInSeconds'])
+    route['ElevationDiff'] = abs(int(elv_diff))
+    route['ElevationDiffText'] = str(route['ElevationDiff']) + " meters"
+    route['VerticalDirection'] = "Down" if dst_elv['elevation'] < src_elv['elevation'] else "Up"
+    route['VerticalDirectionText'] = "Going " + route['VerticalDirection']
 
     return jsonify(route)
 
