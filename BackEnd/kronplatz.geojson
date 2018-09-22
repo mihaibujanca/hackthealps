@@ -1,0 +1,2776 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-21T19:47:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29550590",
+        "name": "Belvedere",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:ref": "8",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9729054,
+          46.7366949
+        ]
+      },
+      "id": "way/29550590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29552826",
+        "name": "Ruipa",
+        "piste:difficulty": "easy",
+        "piste:ref": "20",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9783715,
+          46.7446624
+        ]
+      },
+      "id": "way/29552826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29552885",
+        "name": "Pracken",
+        "piste:difficulty": "easy",
+        "piste:ref": "19",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9877688,
+          46.751184
+        ]
+      },
+      "id": "way/29552885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29559236",
+        "name": "Olang 1",
+        "piste:difficulty": "intermediate",
+        "piste:ref": "21",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9811897,
+          46.7450023
+        ]
+      },
+      "id": "way/29559236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29559575",
+        "name": "Alpen",
+        "piste:difficulty": "easy",
+        "piste:ref": "18",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.978262,
+          46.7473251
+        ]
+      },
+      "id": "way/29559575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/31724460",
+        "name": "Marchner",
+        "piste:difficulty": "easy",
+        "piste:ref": "28",
+        "piste:type": "downhill",
+        "ref": "28",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9839211,
+          46.7351144
+        ]
+      },
+      "id": "way/31724460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/31724461",
+        "name": "Pré da Peres 32 V",
+        "piste:difficulty": "intermediate",
+        "piste:ref": "32",
+        "piste:type": "downhill",
+        "ref": "32",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9684675,
+          46.7176726
+        ]
+      },
+      "id": "way/31724461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/31724462",
+        "name": "Pré da Peres 32",
+        "oneway": "yes",
+        "piste:difficulty": "intermediate",
+        "piste:grooming": "classic",
+        "piste:type": "downhill",
+        "ref": "32R",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.96721,
+          46.71933
+        ]
+      },
+      "id": "way/31724462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/31724463",
+        "lit": "no",
+        "name": "Col Toron",
+        "oneway": "yes",
+        "piste:difficulty": "intermediate",
+        "piste:grooming": "classic",
+        "piste:ref": "34",
+        "piste:type": "downhill",
+        "ref": "34",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9648333,
+          46.7186984
+        ]
+      },
+      "id": "way/31724463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47375296",
+        "name": "Belvedere",
+        "piste:difficulty": "easy",
+        "piste:ref": "8",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9661883,
+          46.7377519
+        ]
+      },
+      "id": "way/47375296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47745340",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9587381,
+          46.7381877
+        ]
+      },
+      "id": "way/47745340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52082335",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9578964,
+          46.7391619
+        ]
+      },
+      "id": "way/52082335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52082336",
+        "name": "Seewiese 2",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.955581,
+          46.7515383
+        ]
+      },
+      "id": "way/52082336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52082337",
+        "name": "Herrnegg",
+        "piste:difficulty": "advanced",
+        "piste:number": "4",
+        "piste:ref": "4",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9518851,
+          46.7538809
+        ]
+      },
+      "id": "way/52082337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52083543",
+        "name": "Costa",
+        "piste:difficulty": "easy",
+        "piste:ref": "29",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9677289,
+          46.7265808
+        ]
+      },
+      "id": "way/52083543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52083544",
+        "piste:difficulty": "intermediate",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9633891,
+          46.7189851
+        ]
+      },
+      "id": "way/52083544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52083545",
+        "name": "Rara 33",
+        "oneway": "yes",
+        "piste:difficulty": "intermediate",
+        "piste:grooming": "classic",
+        "piste:name": "Rara",
+        "piste:ref": "33",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9614987,
+          46.7205554
+        ]
+      },
+      "id": "way/52083545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52083546",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9641617,
+          46.7225038
+        ]
+      },
+      "id": "way/52083546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/52083547",
+        "name": "Rara 33",
+        "oneway": "yes",
+        "piste:difficulty": "intermediate",
+        "piste:grooming": "classic",
+        "piste:name": "Col Toron",
+        "piste:ref": "34",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9646425,
+          46.7189076
+        ]
+      },
+      "id": "way/52083547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/74501433",
+        "highway": "track",
+        "piste:type": "sled",
+        "tracktype": "grade4",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9399048,
+          46.7649232
+        ]
+      },
+      "id": "way/74501433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/74501437",
+        "highway": "unclassified",
+        "piste:name": "Haidenberg",
+        "piste:type": "sled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9252759,
+          46.7640358
+        ]
+      },
+      "id": "way/74501437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/82284880",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Seewiese",
+        "piste:number": "2A",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9520457,
+          46.7443903
+        ]
+      },
+      "id": "way/82284880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94801266",
+        "name": "Marchner",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "ref": "28",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9732692,
+          46.7366581
+        ]
+      },
+      "id": "way/94801266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092158",
+        "name": "Ruipa",
+        "piste:difficulty": "easy",
+        "piste:ref": "20",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9820565,
+          46.7489882
+        ]
+      },
+      "id": "way/106092158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092159",
+        "name": "Rara 31",
+        "oneway": "yes",
+        "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:name": "Rara",
+        "piste:ref": "31",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9654848,
+          46.719786
+        ]
+      },
+      "id": "way/106092159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092160",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Seewiese",
+        "piste:ref": "2",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9517529,
+          46.7441743
+        ]
+      },
+      "id": "way/106092160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092161",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Arndt",
+        "piste:ref": "22",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9822173,
+          46.7508375
+        ]
+      },
+      "id": "way/106092161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092163",
+        "name": "Furcia 9",
+        "oneway": "yes",
+        "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:ref": "9",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9666108,
+          46.7270661
+        ]
+      },
+      "id": "way/106092163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092165",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9581249,
+          46.7384436
+        ]
+      },
+      "id": "way/106092165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092166",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0093819,
+          46.7452627
+        ]
+      },
+      "id": "way/106092166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092168",
+        "name": "Furcia 9",
+        "piste:difficulty": "easy",
+        "piste:ref": "9",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9654026,
+          46.7328381
+        ]
+      },
+      "id": "way/106092168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092171",
+        "name": "Costa",
+        "piste:difficulty": "easy",
+        "piste:ref": "29",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9635843,
+          46.7230787
+        ]
+      },
+      "id": "way/106092171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092172",
+        "lit": "no",
+        "name": "FURCIA 9 A - Picio Jarú",
+        "oneway": "yes",
+        "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9624529,
+          46.7351693
+        ]
+      },
+      "id": "way/106092172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092173",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9588528,
+          46.7392045
+        ]
+      },
+      "id": "way/106092173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092174",
+        "piste:difficulty": "easy",
+        "piste:name": "Plateau",
+        "piste:ref": "6",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9716398,
+          46.7422765
+        ]
+      },
+      "id": "way/106092174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092180",
+        "piste:difficulty": "easy",
+        "piste:name": "Olang 2",
+        "piste:ref": "5",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9657918,
+          46.7415306
+        ]
+      },
+      "id": "way/106092180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092183",
+        "name": "Furcia 9 B",
+        "oneway": "yes",
+        "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:ref": "9B",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9665719,
+          46.7276212
+        ]
+      },
+      "id": "way/106092183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092186",
+        "piste:difficulty": "easy",
+        "piste:name": "Spitzhorn",
+        "piste:ref": "17",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9742616,
+          46.7473171
+        ]
+      },
+      "id": "way/106092186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092189",
+        "piste:difficulty": "easy",
+        "piste:name": "Sonne",
+        "piste:ref": "10",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9604279,
+          46.7349581
+        ]
+      },
+      "id": "way/106092189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092191",
+        "piste:difficulty": "easy",
+        "piste:name": "Rara",
+        "piste:ref": "31",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9624765,
+          46.7207845
+        ]
+      },
+      "id": "way/106092191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092195",
+        "piste:difficulty": "easy",
+        "piste:name": "Korer",
+        "piste:ref": "14",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9415062,
+          46.7682283
+        ]
+      },
+      "id": "way/106092195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092197",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9591759,
+          46.738135
+        ]
+      },
+      "id": "way/106092197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092199",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9728,
+          46.7452332
+        ]
+      },
+      "id": "way/106092199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092206",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Arndt",
+        "piste:ref": "22",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9874591,
+          46.7463557
+        ]
+      },
+      "id": "way/106092206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092207",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.009868,
+          46.746112
+        ]
+      },
+      "id": "way/106092207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092210",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9828893,
+          46.7502023
+        ]
+      },
+      "id": "way/106092210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092212",
+        "piste:difficulty": "easy",
+        "piste:name": "Belvedere",
+        "piste:ref": "7",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9675973,
+          46.7402122
+        ]
+      },
+      "id": "way/106092212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092213",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9719083,
+          46.7429042
+        ]
+      },
+      "id": "way/106092213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092216",
+        "piste:difficulty": "easy",
+        "piste:name": "Rara",
+        "piste:ref": "31",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9637123,
+          46.7226037
+        ]
+      },
+      "id": "way/106092216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092217",
+        "piste:difficulty": "advanced",
+        "piste:name": "Trasse",
+        "piste:ref": "2B",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9528222,
+          46.7461181
+        ]
+      },
+      "id": "way/106092217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092218",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9572008,
+          46.7376952
+        ]
+      },
+      "id": "way/106092218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092225",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9641129,
+          46.724224
+        ]
+      },
+      "id": "way/106092225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092229",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9523919,
+          46.7487744
+        ]
+      },
+      "id": "way/106092229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092231",
+        "highway": "track",
+        "piste:difficulty": "easy",
+        "piste:name": "Furcia 9",
+        "piste:ref": "9",
+        "piste:type": "downhill",
+        "tracktype": "grade2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.969198,
+          46.7288926
+        ]
+      },
+      "id": "way/106092231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092233",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9724092,
+          46.7436539
+        ]
+      },
+      "id": "way/106092233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092235",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9609742,
+          46.7394332
+        ]
+      },
+      "id": "way/106092235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092236",
+        "piste:difficulty": "easy",
+        "piste:name": "Rara",
+        "piste:ref": "31",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9631908,
+          46.7230631
+        ]
+      },
+      "id": "way/106092236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092238",
+        "area": "yes",
+        "name": "Snowpark Kronplatz",
+        "note": "approximate outline; exact location and contour may vary each winter season",
+        "piste:type": "snow_park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9655878,
+          46.7393172
+        ]
+      },
+      "id": "way/106092238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092239",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9719636,
+          46.7419877
+        ]
+      },
+      "id": "way/106092239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092240",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9639909,
+          46.7246914
+        ]
+      },
+      "id": "way/106092240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092242",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9412632,
+          46.7717759
+        ]
+      },
+      "id": "way/106092242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092243",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9727886,
+          46.7440505
+        ]
+      },
+      "id": "way/106092243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092244",
+        "name": "Furcia 9 C",
+        "oneway": "yes",
+        "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:name": "Furcia 9",
+        "piste:ref": "9C",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9655221,
+          46.7259873
+        ]
+      },
+      "id": "way/106092244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092246",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Seewiese",
+        "piste:ref": "2C",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.951128,
+          46.7476286
+        ]
+      },
+      "id": "way/106092246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092249",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9599161,
+          46.7312034
+        ]
+      },
+      "id": "way/106092249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092250",
+        "oneway": "no",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9645926,
+          46.7226023
+        ]
+      },
+      "id": "way/106092250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092251",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9676898,
+          46.7430133
+        ]
+      },
+      "id": "way/106092251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092252",
+        "name": "Costa",
+        "piste:difficulty": "easy",
+        "piste:ref": "30",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9679768,
+          46.7260721
+        ]
+      },
+      "id": "way/106092252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092253",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9640321,
+          46.722709
+        ]
+      },
+      "id": "way/106092253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092254",
+        "access": "designated",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Arndt",
+        "piste:ref": "22",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9836558,
+          46.7493897
+        ]
+      },
+      "id": "way/106092254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092255",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Sonne",
+        "piste:ref": "11",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9588776,
+          46.7377741
+        ]
+      },
+      "id": "way/106092255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092260",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9649625,
+          46.722774
+        ]
+      },
+      "id": "way/106092260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092261",
+        "piste:difficulty": "easy",
+        "piste:name": "Korer",
+        "piste:ref": "15",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9423465,
+          46.7676292
+        ]
+      },
+      "id": "way/106092261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092263",
+        "name": "Furcia 12",
+        "piste:difficulty": "intermediate",
+        "piste:number": "12",
+        "piste:ref": "12",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9574211,
+          46.7342147
+        ]
+      },
+      "id": "way/106092263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092264",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9634576,
+          46.7229488
+        ]
+      },
+      "id": "way/106092264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092265",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9594791,
+          46.7390515
+        ]
+      },
+      "id": "way/106092265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092267",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9636898,
+          46.7242686
+        ]
+      },
+      "id": "way/106092267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106092268",
+        "piste:difficulty": "easy",
+        "piste:name": "Furcia 9",
+        "piste:ref": "9A",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9654736,
+          46.7327423
+        ]
+      },
+      "id": "way/106092268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106096059",
+        "name": "Pramstall",
+        "piste:difficulty": "intermediate",
+        "piste:number": "3",
+        "piste:ref": "3",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9566973,
+          46.7445224
+        ]
+      },
+      "id": "way/106096059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106096072",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9575778,
+          46.7391005
+        ]
+      },
+      "id": "way/106096072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106096074",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9577538,
+          46.7391363
+        ]
+      },
+      "id": "way/106096074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106096080",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9913418,
+          46.7444877
+        ]
+      },
+      "id": "way/106096080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106096081",
+        "name": "Sylvester",
+        "piste:difficulty": "advanced",
+        "piste:ref": "1",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9474329,
+          46.7518056
+        ]
+      },
+      "id": "way/106096081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106096089",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9906618,
+          46.7440613
+        ]
+      },
+      "id": "way/106096089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110471",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9416918,
+          46.7709606
+        ]
+      },
+      "id": "way/106110471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110472",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9732477,
+          46.7431619
+        ]
+      },
+      "id": "way/106110472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110473",
+        "name": "Pramstall",
+        "piste:difficulty": "intermediate",
+        "piste:number": "3",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9570082,
+          46.7480402
+        ]
+      },
+      "id": "way/106110473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110474",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9742257,
+          46.7418172
+        ]
+      },
+      "id": "way/106110474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110480",
+        "area": "yes",
+        "piste:type": "playground",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9603412,
+          46.7394892
+        ]
+      },
+      "id": "way/106110480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110481",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9588527,
+          46.7380239
+        ]
+      },
+      "id": "way/106110481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110486",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9910598,
+          46.7443161
+        ]
+      },
+      "id": "way/106110486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110490",
+        "area": "yes",
+        "piste:type": "playground",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9684939,
+          46.7437725
+        ]
+      },
+      "id": "way/106110490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110493",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Gassl",
+        "piste:ref": "23",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9985922,
+          46.7449928
+        ]
+      },
+      "id": "way/106110493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106110496",
+        "highway": "track",
+        "piste:type": "sled",
+        "tracktype": "grade3",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9411328,
+          46.7673397
+        ]
+      },
+      "id": "way/106110496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106116026",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9642955,
+          46.7228288
+        ]
+      },
+      "id": "way/106116026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/135188331",
+        "highway": "unclassified",
+        "piste:name": "Haidenberg",
+        "piste:type": "sled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9256664,
+          46.7601631
+        ]
+      },
+      "id": "way/135188331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143758043",
+        "name": "Marchner",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "ref": "28",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9920995,
+          46.7342494
+        ]
+      },
+      "id": "way/143758043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143758049",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Ried",
+        "piste:ref": "16",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9842459,
+          46.7692888
+        ]
+      },
+      "id": "way/143758049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143758585",
+        "piste:difficulty": "easy",
+        "piste:name": "Spitzhorn",
+        "piste:ref": "17",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9669307,
+          46.7427187
+        ]
+      },
+      "id": "way/143758585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150413915",
+        "piste:name": "Korer",
+        "piste:type": "sled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9407019,
+          46.769863
+        ]
+      },
+      "id": "way/150413915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/257534201",
+        "piste:difficulty": "easy",
+        "piste:name": "Ried",
+        "piste:ref": "16",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9851778,
+          46.7828079
+        ]
+      },
+      "id": "way/257534201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331114843",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9592142,
+          46.738407
+        ]
+      },
+      "id": "way/331114843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331114844",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.957374,
+          46.7393081
+        ]
+      },
+      "id": "way/331114844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331114845",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9525125,
+          46.7126452
+        ]
+      },
+      "id": "way/331114845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331114846",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9572855,
+          46.7382936
+        ]
+      },
+      "id": "way/331114846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331114847",
+        "name": "Furcia 12",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "ref": "12",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.956568,
+          46.7380007
+        ]
+      },
+      "id": "way/331114847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372320206",
+        "highway": "unclassified",
+        "piste:name": "Haidenberg",
+        "piste:type": "sled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9218432,
+          46.7660804
+        ]
+      },
+      "id": "way/372320206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372320207",
+        "highway": "unclassified",
+        "piste:name": "Haidenberg",
+        "piste:type": "sled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.926414,
+          46.7632286
+        ]
+      },
+      "id": "way/372320207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396514752",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9592148,
+          46.7385922
+        ]
+      },
+      "id": "way/396514752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396514753",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9578863,
+          46.7390829
+        ]
+      },
+      "id": "way/396514753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396514754",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9576096,
+          46.7388851
+        ]
+      },
+      "id": "way/396514754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396514755",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9596039,
+          46.7392488
+        ]
+      },
+      "id": "way/396514755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396514756",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9581569,
+          46.7392449
+        ]
+      },
+      "id": "way/396514756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396514757",
+        "name": "Furcia 12",
+        "piste:difficulty": "intermediate",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "ref": "12",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9574737,
+          46.7389771
+        ]
+      },
+      "id": "way/396514757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396516680",
+        "piste:name": "Korer",
+        "piste:type": "sled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.941379,
+          46.7646368
+        ]
+      },
+      "id": "way/396516680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396516681",
+        "highway": "track",
+        "piste:name": "Korer",
+        "piste:type": "sled",
+        "tracktype": "grade2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9411571,
+          46.7660229
+        ]
+      },
+      "id": "way/396516681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396518253",
+        "piste:difficulty": "easy",
+        "piste:ref": "1",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9431802,
+          46.7646351
+        ]
+      },
+      "id": "way/396518253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396518414",
+        "piste:difficulty": "easy",
+        "piste:name": "Korer",
+        "piste:ref": "15",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9418105,
+          46.7690722
+        ]
+      },
+      "id": "way/396518414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/397042699",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9635515,
+          46.722883
+        ]
+      },
+      "id": "way/397042699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/415353009",
+        "highway": "track",
+        "piste:name": "Korer",
+        "piste:type": "sled",
+        "tracktype": "grade2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.941206,
+          46.7669356
+        ]
+      },
+      "id": "way/415353009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/423114199",
+        "highway": "track",
+        "piste:difficulty": "easy",
+        "piste:name": "Furcia 9",
+        "piste:ref": "9",
+        "piste:type": "downhill",
+        "tracktype": "grade2",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9679874,
+          46.7286965
+        ]
+      },
+      "id": "way/423114199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/449720630",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9640557,
+          46.7247342
+        ]
+      },
+      "id": "way/449720630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460342744",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9673555,
+          46.7247254
+        ]
+      },
+      "id": "way/460342744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460342745",
+        "name": "Costa",
+        "piste:difficulty": "easy",
+        "piste:ref": "29",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9649646,
+          46.724374
+        ]
+      },
+      "id": "way/460342745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460342746",
+        "name": "Costa",
+        "piste:difficulty": "easy",
+        "piste:ref": "30",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9657344,
+          46.7246775
+        ]
+      },
+      "id": "way/460342746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460342747",
+        "piste:difficulty": "easy",
+        "piste:ref": "24",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9826789,
+          46.7425764
+        ]
+      },
+      "id": "way/460342747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460342756",
+        "name": "Hinterberg",
+        "piste:difficulty": "easy",
+        "piste:ref": "27",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9750596,
+          46.7359188
+        ]
+      },
+      "id": "way/460342756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460342798",
+        "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9594168,
+          46.7321606
+        ]
+      },
+      "id": "way/460342798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465911336",
+        "name": "Furcia 12",
+        "piste:difficulty": "intermediate",
+        "piste:number": "12",
+        "piste:ref": "12",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9606576,
+          46.7278191
+        ]
+      },
+      "id": "way/465911336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/466119422",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9702399,
+          46.7368718
+        ]
+      },
+      "id": "way/466119422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/471126426",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.960828,
+          46.7317544
+        ]
+      },
+      "id": "way/471126426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/472621220",
+        "alt_name": "JIB park",
+        "area": "yes",
+        "name": "Korer Snow Park",
+        "piste:type": "snow_park",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9423043,
+          46.7681377
+        ]
+      },
+      "id": "way/472621220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/472632435",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9747753,
+          46.7363505
+        ]
+      },
+      "id": "way/472632435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/473016870",
+        "piste:difficulty": "easy",
+        "piste:oneway": "no",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9591045,
+          46.738349
+        ]
+      },
+      "id": "way/473016870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/473016871",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9581149,
+          46.7379016
+        ]
+      },
+      "id": "way/473016871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/473852202",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.957482,
+          46.7377522
+        ]
+      },
+      "id": "way/473852202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/473852203",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9903555,
+          46.7436539
+        ]
+      },
+      "id": "way/473852203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/473852204",
+        "piste:difficulty": "easy",
+        "piste:name": "Arndt",
+        "piste:ref": "22",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9907414,
+          46.744226
+        ]
+      },
+      "id": "way/473852204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/484895709",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9674027,
+          46.7432415
+        ]
+      },
+      "id": "way/484895709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/498824547",
+        "lit": "no",
+        "name": "FURCIA 12 A",
+        "oneway": "yes",
+        "piste:difficulty": "intermediate",
+        "piste:grooming": "classic",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9589118,
+          46.7347038
+        ]
+      },
+      "id": "way/498824547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/498827777",
+        "name": "Furcia 9 B",
+        "oneway": "yes",
+        "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9651174,
+          46.7264428
+        ]
+      },
+      "id": "way/498827777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/498827778",
+        "name": "Furcia 9 B",
+        "piste:type": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9648147,
+          46.7268067
+        ]
+      },
+      "id": "way/498827778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/498829696",
+        "name": "Pre da Peres 32R",
+        "oneway": "yes",
+        "piste:difficulty": "advanced",
+        "piste:grooming": "classic",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9676448,
+          46.71939
+        ]
+      },
+      "id": "way/498829696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/498830852",
+        "lit": "no",
+        "name": "Col Toron",
+        "oneway": "yes",
+        "piste:difficulty": "intermediate",
+        "piste:grooming": "classic",
+        "piste:ref": "34",
+        "piste:type": "downhill",
+        "ref": "34",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9570797,
+          46.715029
+        ]
+      },
+      "id": "way/498830852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/498832689",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Sonne",
+        "piste:ref": "11",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9584034,
+          46.7376275
+        ]
+      },
+      "id": "way/498832689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/499068196",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Sonne",
+        "piste:ref": "11",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9599355,
+          46.734639
+        ]
+      },
+      "id": "way/499068196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/562020555",
+        "piste:difficulty": "easy",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9643518,
+          46.7224225
+        ]
+      },
+      "id": "way/562020555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/562020556",
+        "piste:difficulty": "intermediate",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9644642,
+          46.7222048
+        ]
+      },
+      "id": "way/562020556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/562020557",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9649549,
+          46.7219027
+        ]
+      },
+      "id": "way/562020557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/562297669",
+        "name": "Sylvester Start",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9420646,
+          46.7480327
+        ]
+      },
+      "id": "way/562297669"
+    }
+  ]
+}
