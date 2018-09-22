@@ -16,7 +16,7 @@
 	<script src="routing/leaflet-routing-machine.js"></script>
 	 <script src="routing/lrm-graphhopper.js"></script>
 	 
-	<link rel="stylesheet" href="css/style.css"></script>
+	<link rel="stylesheet" href="css/style.css"></link>
 
 	
 </head>
@@ -28,7 +28,7 @@
 	<div class="wrap uielement">
 	   <div class="search autocomplete">
 		  <input id="myInput" type="text" class="searchTerm" placeholder="What are you looking for?">
-		  <button type="submit" class="searchButton" onClick:"goToLocation(document.getElementsByTagName("input")[0].value)" onsubmit:"goToLocation(document.getElementsByTagName("input")[0].value)><img class="searchLens" src="css/lens.png" style="width:26px;height:26px"></img></button>
+		  <button type="submit" class="searchButton" onsubmit:"goToLocation(document.getElementsByTagName("input")[0].value)><img class="searchLens" src="css/lens.png" style="width:26px;height:26px"></img></button>
 			<i class="fa fa-search"></i>
 		 </button>
 	   </div>
