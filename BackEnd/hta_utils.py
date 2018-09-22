@@ -34,7 +34,7 @@ df_elevations = pd.read_csv(elevations_file)
 data_elevations = df_elevations.to_dict('records')
 
 def closest_point(data, v):
-    return min(data, key=lambda p: geopy.distance.vincenty(v['lat'],v['lon'],p['lat'],p['lon']).m)
+    return min(data, key=lambda p: geopy.distance.vincenty((v['lat'],v['lon']),(p['lat'],p['lon'])).m)
 
 
 def get_elevation_offline(lat, lon):

@@ -32,19 +32,20 @@ def get_locations():
 
 @app.route('/skiroute')
 def get_skiroute():
-    src_lat = request.args.get('src_lat')
-    src_lon = request.args.get('src_lon')
-    dst_lat = request.args.get('dst_lat')
-    dst_lon = request.args.get('dst_lon')
+    src_lat = float(request.args.get('src_lat'))
+    src_lon = float(request.args.get('src_lon'))
+    dst_lat = float(request.args.get('dst_lat'))
+    dst_lon = float(request.args.get('dst_lon'))
     route = calculate_ski_route(dst_lat, dst_lon, src_lat, src_lon)
 
     src_elv = get_elevation_offline(src_lat, src_lon)
     dst_elv = get_elevation_offline(dst_lat, dst_lon)
 
-    dist_2d = 0 # test
+    dist_2d = geopy.distance.vincenty((dst_lat, dst_lon), (src_lat, src_lon)).m # test
 
     a = (0, 0)
-    b = (dist_2d, dst_elv['elevation'] - src_elv['elevation'])
+    elv_diff = dst_elv['elevation'] - src_elv['elevation']
+    b = (dist_2d, elv_diff)
     route['TotalDistance'] = distance.euclidean(a, b)
 
     return jsonify(route)
