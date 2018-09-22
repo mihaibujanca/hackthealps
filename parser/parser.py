@@ -1,8 +1,13 @@
-from imposm.parser import OSMParser
 from geopy.geocoders import Nominatim
 import json
 from geopy.distance import geodesic
 from pprint import pprint
+import sys
+
+PYTHON_VER = sys.version_info[0]
+
+if PYTHON_VER == 2:
+    from imposm.parser import OSMParser
 
 geolocator = Nominatim(user_agent="hackthealps")
 with open('data/gast.json') as f:
@@ -30,8 +35,16 @@ def coords_callback(coords):
     global coordslist
     coordslist = coords
 
-p = OSMParser(concurrency=4, ways_callback=ways_callback, coords_callback=coords_callback)
-p.parse('data/kronplatz.osm')
+if PYTHON_VER == 3:
+    with open('data/stations.json') as f:
+        stationlist = json.load(f)
+    with open('data/pistedict.json') as f:
+        pistedict = json.load(f)
+    with open('data/coords.json') as f:
+        coordslist = json.load(f)    
+else:
+    p = OSMParser(concurrency=4, ways_callback=ways_callback, coords_callback=coords_callback)
+    p.parse('data/kronplatz.osm')
 
 
 
@@ -62,7 +75,8 @@ def find_piste_by_category(coords, piste_list = None):
                     closest_node = node[0]
                     min_pist = piste
         # print piste
-    piste_list.sort(cmp=cmp_items)
+    if PYTHON_VER == 2:
+        piste_list.sort(cmp=cmp_items)
     # return piste_list
     return (min_pist, min_distance, coords, closest_node)
 
@@ -81,7 +95,7 @@ def way_to_interest_point(start, end, preferences=None):
     piste_start_options = find_start_to_piste(start)
     piste_end_options = find_start_to_piste(end)
 
-    print piste_start_options
+    print(piste_start_options)
 
     return {"way_id":None, "coords":None, "distance":None}
 
