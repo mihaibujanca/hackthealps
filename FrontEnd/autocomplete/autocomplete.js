@@ -7,7 +7,7 @@ function retriveLocations(){
 			console.log(places);
 		}
 	};
-	xmlhttp.open("GET", "https://6db80386.ngrok.io/locations?lat=46.739125&lon=11.95784", false);
+	xmlhttp.open("GET", "https://2af4ab4b.ngrok.io/locations?lat=46.739125&lon=11.95784", false);
 	xmlhttp.send();
 	
 }
